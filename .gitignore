@@ -1,0 +1,37 @@
+API_DOCUMENTATION.md
+DEPLOYMENT_GUIDE.md
+check_redis.py
+start.sh
+.env
+
+# Python
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Redis database snapshot
+dump.rdb
+
+# Recordings (temporary uploads)
+recordings/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.webm
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Supervisor logs (if running locally)
+*.err.log
+*.out.log
