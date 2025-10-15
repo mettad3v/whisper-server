@@ -1,9 +1,12 @@
 from celery import Celery
+from config import REDIS_URL
+
+redis_url = REDIS_URL
 
 celery = Celery(
     "whisper_backend",
-    broker="redis://localhost:6379/3",
-    backend="redis://localhost:6379/3"
+    broker=redis_url,
+    backend=redis_url
 )
 
 # Import tasks to register them
