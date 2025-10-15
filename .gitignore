@@ -3,6 +3,7 @@ DEPLOYMENT_GUIDE.md
 CORS_CONFIG.md
 check_redis.py
 start.sh
+stop.sh
 .env
 
 # Python
